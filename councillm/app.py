@@ -78,7 +78,7 @@ class LoggedChat(BasicRepr):
             db = get_llm_db()
             try:
                 r.log_to_db(db)
-                rid = first(db.execute("SELECT MAX(id) FROM responses WHERE conversation_id=?", self.c.id))['id']
+                rid = first(db.execute("SELECT MAX(id) FROM responses WHERE conversation_id=?", self.c.id))[0]
                 tcs.insert(tid=tid, cid=self.c.id, mn=self.mn, mid=mid, rid=rid, when=datetime.now().isoformat())
             except Exception as e:
                 return e
