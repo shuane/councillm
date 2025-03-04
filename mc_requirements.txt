@@ -1,0 +1,12 @@
+llm
+llm-gemini
+llm-groq
+llm-anthropic
+llm-deepseek
+marimo
+duckdb
+pandas
+numpy
+pyarrow
+openpyxl
+sqlglot

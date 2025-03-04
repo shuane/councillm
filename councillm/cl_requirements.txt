@@ -1,0 +1,7 @@
+python-fasthtml
+monsterui
+llm
+llm-gemini
+llm-groq
+llm-anthropic
+llm-deepseek
