@@ -4,7 +4,7 @@ Query multiple LLMs simultaneously with the same prompts.
 
 councillm is a FastHTML application that lets you pose the same question to several different Large Language Models at once, allowing you to easily see how different models respond to identical prompts.
 
-It optionally can log the responses to a local SQLite database (due to using Simon Willison's excellent 'llm' module), so that you can search them later.
+It optionally can log the responses to a local SQLite database (due to using Simon Willison's excellent [llm](https://github.com/simonw/llm) package), so that you can search them later.
 
 ## What does it do?
 
