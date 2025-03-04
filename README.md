@@ -20,10 +20,10 @@ There is also a marimo notebook that you can run locally to have logged chats wi
 ## Screenshots
 
 ### The Council:
-[CounciLLM.png]
+![CounciLLM interface showing multiple LLM responses in parallel](screenshots/CounciLLM.png)
 
 ### Marimo Notebook:
-[multichat.png]
+![Marimo notebook interface for chatting with individual LLMs](screenshots/multichat.png)
 
 ## Quick start
 
