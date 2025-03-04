@@ -28,15 +28,26 @@ There is also a marimo notebook that you can run locally to have logged chats wi
 ## Quick start
 
 Assuming you are starting in the folder where you downloaded councillm, you can start the app this way:
-
+```bash
+. ./start_app.sh
+```
 (Or if on Windows, `start_app.bat`)
 
-Then visit http://localhost:5001 in your browser.
+When the app starts you will notice it usually says it has started against an IP and a port - e.g. http://0.0.0.0:5001
+
+If 5001 is the port it is using, visit http://localhost:5001 in your browser.
 
 Both start_app scripts allow you to input some options if you want to adjust these defaults:
+```
+  -n 7                  # set the number of models to query (e.g. here is for 7 models)
+  --no-logging          # start with logging toggled off
+```
 
 
 If you want to start the marimo notebook:
+```bash
+. ./start_mo.sh
+```
 (Or if on Windows, `start_mo.bat`)
 
 Marimo will also start a browser window with the notebook open.
@@ -47,6 +58,13 @@ Marimo will also start a browser window with the notebook open.
 councillm needs API keys for the models you want to query.
 
 EITHER set them as environment variables, like so in bash:
+```bash
+export OPENAI_API_KEY=sk-...
+export ANTHROPIC_API_KEY=sk-...
+export GEMINI_API_KEY=...
+export GROQ_API_KEY=...
+export DEEPSEEK_API_KEY=...
+```
 
 
 OR set them via the `llm` command line:
