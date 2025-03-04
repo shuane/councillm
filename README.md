@@ -25,7 +25,10 @@ There is also a marimo notebook that you can run locally to have logged chats wi
 ### Marimo Notebook:
 ![Marimo notebook interface for chatting with individual LLMs](screenshots/multichat.png)
 
+
 ## Quick start
+
+First you need to install uv - see https://docs.astral.sh/uv/getting-started/installation/ - note too that you would need to close whatever shell or terminal you first installed uv from.
 
 Assuming you are starting in the folder where you downloaded councillm, you can start the app this way:
 ```bash
